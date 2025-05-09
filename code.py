@@ -83,3 +83,4 @@ instructor_2.assignCourse(course_2)
 # Output details
 print(f"Course: {course_1.name}, Instructor: {course_1.instructor.getName()}, Students: {[student.getName() for student in course_1.students]}")
 print(f"Course: {course_2.name}, Instructor: {course_2.instructor.getName()}, Students: {[student.getName() for student in course_2.students]}")
+print(f"Department: {cs_department.name}, Courses: {[course.name for course in cs_department.courses]}")
