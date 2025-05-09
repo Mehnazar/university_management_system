@@ -84,3 +84,9 @@ instructor_2.assignCourse(course_2)
 print(f"Course: {course_1.name}, Instructor: {course_1.instructor.getName()}, Students: {[student.getName() for student in course_1.students]}")
 print(f"Course: {course_2.name}, Instructor: {course_2.instructor.getName()}, Students: {[student.getName() for student in course_2.students]}")
 print(f"Department: {cs_department.name}, Courses: {[course.name for course in cs_department.courses]}")
+
+# This code defines a simple university management system with classes for Person, Student, Instructor, Course, and Department.
+# Each class has its own attributes and methods to manage the relationships between students, instructors, and courses.
+# The example usage at the end demonstrates how to create instances of these classes and manage their relationships.
+# This code is a simple implementation of a university management system using object-oriented programming principles.
+
